@@ -150,8 +150,8 @@ footer {
   }
 }
 
-@media obly screen and (max-width: 470px) {
-  .product .watch {
+@media only screen and (max-width: 470px) {
+  .product {
     display: none;
   }
 }
