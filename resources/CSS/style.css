@@ -1,6 +1,21 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: "helvetica", sans-serif;
   line-height: 1.4em;
+}
+
+h1, h4 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
 }
 
 /* Top Section */
@@ -17,11 +32,6 @@ div {
   display: flex;
   align-items: center;
   padding: 0.66rem 0px 0.66rem 0.5rem;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0px auto;
 }
 
 .top img {
@@ -48,16 +58,10 @@ div {
   padding: 2rem 3rem;
 }
 
-.headline h4 {
-  font-weight: bold;
-  font-size: 1rem;
-}
-
 .headline h1 {
   font-size: 2rem;
   line-height: 1.2em;
   margin: 0.25rem 0px;
-  font-weight: bold;
 }
 
 /* Navigation Section */
@@ -131,27 +135,3 @@ footer {
 }
 
 /* Media Section */
-@media only screen and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .mobile-nav {
-    display: block;
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .product {
-    width: 47%
-  }
-}
-
-@media only screen and (max-width: 470px) {
-  .product {
-    display: none;
-  }
-}
